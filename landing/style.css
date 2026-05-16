@@ -145,3 +145,143 @@ footer span {
     color: var(--bg-cream);
     letter-spacing: 0.01em;
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 80px;
+  flex: 1;
+}
+
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 520px;
+}
+
+.hero_brand {
+  background-color: var(--red);
+  border: 3px solid var(--black);
+  border-radius: 20px;
+  box-shadow: 5px 6px 0 var(--black);
+  padding: 24px 32px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+}
+
+.hero_brand_logo {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+
+.hero_brand_tagline {
+  font-family: var(--font);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--bg-cream);
+  letter-spacing: 0.02em;
+}
+
+.hero_desc {
+  font-family: var(--font);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--green-dark);
+  line-height: 1.55;
+}
+
+.hero_desc strong {
+  font-weight: 700;
+  color: var(--green-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero_actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-family: var(--font);
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 14px;
+  border: 3px solid var(--black);
+  box-shadow: 4px 5px 0 var(--black);
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 3px 0 var(--black);
+}
+
+.btn:active {
+  transform: translate(4px, 5px);
+  box-shadow: 0px 0px 0 var(--black);
+}
+
+.btn--red {
+  background-color: var(--red);
+  color: var(--bg-cream);
+}
+
+.btn--teal {
+  background-color: var(--green);
+  color: var(--bg-cream);
+}
+
+.hero_badges {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  font-family: var(--font);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--black);
+  background-color: #E8B84B;
+  border: 2.5px solid var(--black);
+  border-radius: 30px;
+  padding: 6px 18px;
+  box-shadow: 3px 3px 0 var(--black);
+  letter-spacing: 0.01em;
+}
+
+.hero_right {
+  flex-shrink: 0;
+}
+
+.hero_preview {
+  background-color: #fff;
+  border: 3px solid var(--black);
+  border-radius: 20px;
+  box-shadow: 6px 7px 0 var(--black);
+  padding: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.preview_img {
+  height: 420px;
+  width: auto;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
