@@ -1,58 +1,153 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
 </p>
 
-## About Laravel
+<h1 align="center">📸 PHOTOin!</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <strong>Aplikasi Web Photobooth Digital — Ekspresikan Kreativitasmu, Kapan Saja & Di Mana Saja</strong>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+  <img src="https://img.shields.io/badge/Mata%20Kuliah-Pengembangan%20Aplikasi%20Web-blue" alt="Mata Kuliah">
+  <img src="https://img.shields.io/badge/Universitas-Brawijaya-red" alt="Universitas Brawijaya">
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🏫 Informasi Akademik
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+| Keterangan         | Detail                         |
+| ------------------ | ------------------------------ |
+| **Mata Kuliah**    | Pengembangan Aplikasi Web      |
+| **Dosen Pengampu** | Agi Putra Kharisma, S.T., M.T. |
+| **Program Studi**  | Teknik Informatika             |
+| **Jurusan**        | Teknik Informatika             |
+| **Universitas**    | Universitas Brawijaya          |
+| **Tahun**          | 2026                           |
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## 👥 Anggota Kelompok — _nanti aja_
 
-## Agentic Development
+| No  | Nama                         | NIM             |
+| --- | ---------------------------- | --------------- |
+| 1   | Muhammad Azza Arsyada Roziqi | 245150200111062 |
+| 2   | Sabrina Khairunnisa Qalby    | 245150201111039 |
+| 3   | Aqeela Sahla                 | 245150201111039 |
+| 4   | Ahmad Hilalul Fadli          | 245150201111045 |
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+---
 
-```bash
-composer require laravel/boost --dev
+## 📖 Tentang PHOTOin!
 
-php artisan boost:install
-```
+**PHOTOin!** adalah aplikasi web photobooth digital yang dapat diakses langsung melalui browser tanpa instalasi apapun. Dilengkapi dengan fitur filter foto, berbagai pilihan layout strip, dan keunggulan utamanya yaitu unggah frame custom — PHOTOin! hadir sebagai solusi photobooth yang personal, gratis, dan dapat dinikmati siapa saja tanpa batas tempat maupun waktu.
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+Dibangun di atas framework **Laravel** yang ekspresif dan elegan, PHOTOin! memanfaatkan ekosistem Laravel untuk membangun aplikasi web yang robust, scalable, dan mudah dikembangkan.
 
-## Contributing
+### Fitur Utama
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- 📷 **Photobooth Digital** — Ambil foto langsung dari browser menggunakan kamera perangkat
+- 🎨 **Filter Foto** — Berbagai pilihan filter untuk mempercantik hasil foto
+- 🖼️ **Layout Strip** — Pilihan layout strip foto yang beragam
+- ✨ **Frame Custom** — Unggah dan gunakan frame desain buatanmu sendiri
+- 🌐 **Tanpa Instalasi** — Akses langsung dari browser, kapan saja dan di mana saja
+- 💸 **Gratis** — Nikmati semua fitur tanpa biaya apapun
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🌱 Latar Belakang
 
-## Security Vulnerabilities
+Foto kini bukan sekadar dokumentasi, melainkan bagian dari gaya hidup — terutama di kalangan generasi muda yang aktif di media sosial. Tren photobooth yang kini mudah ditemukan di pusat perbelanjaan dan kafe membuktikan bahwa kebutuhan akan pengalaman foto yang estetis dan menyenangkan sangat tinggi. Sayangnya, layanan ini mengharuskan pengguna datang ke lokasi tertentu, membayar per sesi, dan menerima pilihan frame yang sudah ditentukan tanpa bisa di-_custom_.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Keterbatasan itulah yang menjadi dasar lahirnya **PHOTOin!**. Pengguna seharusnya bisa menikmati pengalaman photobooth kapan saja dan di mana saja, tanpa biaya, dan dengan kebebasan penuh untuk mengekspresikan kreativitas mereka sendiri — termasuk menggunakan frame desain buatan mereka sendiri.
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🚀 Cara Menjalankan Project
+
+### Prasyarat
+
+- PHP >= 8.2
+- Composer
+- Node.js & NPM
+- Database (MySQL / PostgreSQL / SQLite)
+
+### Langkah Instalasi
+
+1. **Clone repository ini**
+
+    ```bash
+    git clone <url-repository>
+    cd photoin
+    ```
+
+2. **Install dependensi PHP**
+
+    ```bash
+    composer install
+    ```
+
+3. **Install dependensi JavaScript**
+
+    ```bash
+    npm install
+    ```
+
+4. **Salin file environment**
+
+    ```bash
+    cp .env.example .env
+    ```
+
+5. **Generate application key**
+
+    ```bash
+    php artisan key:generate
+    ```
+
+6. **Konfigurasi database** di file `.env`, lalu jalankan migrasi
+
+    ```bash
+    php artisan migrate
+    ```
+
+7. **Jalankan server pengembangan**
+
+    ```bash
+    php artisan serve
+    npm run dev
+    ```
+
+8. Buka browser dan akses `http://localhost:8000`
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **[Laravel](https://laravel.com)** — PHP web application framework
+- **[Blade](https://laravel.com/docs/blade)** — Laravel templating engine
+- **[Eloquent ORM](https://laravel.com/docs/eloquent)** — Database ORM yang ekspresif dan intuitif
+- **[Laravel Queues](https://laravel.com/docs/queues)** — Background job processing
+- **JavaScript / Canvas API** — Untuk fitur kamera dan manipulasi foto di sisi klien
+
+---
+
+## 📚 Referensi & Dokumentasi
+
+- [Dokumentasi Laravel](https://laravel.com/docs)
+- [Laracasts](https://laracasts.com) — Tutorial video Laravel & PHP
+- [Laravel Learn](https://laravel.com/learn) — Panduan belajar Laravel
+
+---
+
+## 📄 Lisensi
+
+Project ini dibuat untuk keperluan akademik mata kuliah **Pengembangan Aplikasi Web**, Universitas Brawijaya 2026.
+
+Framework Laravel yang digunakan merupakan perangkat lunak open-source berlisensi [MIT license](https://opensource.org/licenses/MIT).

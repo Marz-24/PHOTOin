@@ -1,23 +1,26 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --green:#345C66;
-    --green-dark:#245B68;
-    --red:#9E2A2B;
-    --black:#000000;
-    --bg-cream:#FEF4AF;
-    --bg-green: #2E484E;
+    --green: #345c66;
+    --green-dark: #245b68;
+    --red: #9e2a2b;
+    --black: #000000;
+    --bg-cream: #fef4af;
+    --bg-green: #2e484e;
     --nav-height: 90px;
     --nav-margin: 16px;
     --nav-radius: 18px;
-    --font: 'Poppins', sans-serif;
+    --font: "Poppins", sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -35,12 +38,16 @@ body {
     height: var(--nav-height);
     background-color: var(--green);
     background-image:
-    linear-gradient(45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-    linear-gradient(-45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.07) 75%),
-    linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.07) 75%);
+        linear-gradient(45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%);
     background-size: 44px 44px;
-    background-position: 0 0, 0 22px, 22px -22px, -22px 0px;
+    background-position:
+        0 0,
+        0 22px,
+        22px -22px,
+        -22px 0px;
     border-radius: var(--nav-radius);
     border: 3px solid var(--black);
     box-shadow: 4px 5px 0 var(--black);
@@ -119,19 +126,22 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 footer {
     flex-shrink: 0;
     background-color: var(--green);
     background-image:
-    linear-gradient(45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-    linear-gradient(-45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.07) 75%),
-    linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.07) 75%);
+        linear-gradient(45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%);
     background-size: 44px 44px;
-    background-position: 0 0, 0 22px, 22px -22px, -22px 0px;
+    background-position:
+        0 0,
+        0 22px,
+        22px -22px,
+        -22px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,128 +159,115 @@ footer span {
     letter-spacing: 0.01em;
 }
 
-/* ═══════════════════════════════════════════════════════
-   Tambahkan ke style.css — Result / Hasil Foto page
-   Tambahkan class "studio-page" ke <body> di result.html
-   (background gelap sama seperti Studio page)
-═══════════════════════════════════════════════════════ */
-
 .result-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 36px;
-  padding: 28px 40px 36px;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 28px 40px 36px;
+    width: 100%;
 }
 
-/* ── Card putih pembungkus canvas ─────────────────────── */
 .result-card {
-  background: #ffffff;
-  border: 3px solid var(--black);
-  border-radius: 22px;
-  box-shadow: 6px 7px 0 var(--black);
-  padding: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background: #ffffff;
+    border: 3px solid var(--black);
+    border-radius: 22px;
+    box-shadow: 6px 7px 0 var(--black);
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  /* Tinggi card maksimum agar tidak overflow viewport;
-     lebar menyesuaikan aspect-ratio canvas di dalamnya */
-  max-height: calc(98vh - 320px);
+    max-height: calc(98vh - 320px);
 }
 
-/* ── Canvas hasil composit ────────────────────────────── */
 .result-canvas {
-  display: none;                  /* tampil setelah render selesai */
-  max-height: calc(98vh - 360px);
-  max-width: min(360px, 80vw);   /* lebar sesuai strip portrait */
-  width: auto;
-  height: auto;
-  border-radius: 10px;
-  object-fit: contain;
+    display: none;
+    max-height: calc(98vh - 360px);
+    max-width: min(360px, 80vw);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
 }
 
-/* ── Loading state ────────────────────────────────────── */
 .result-loading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  padding: 40px 60px;
-  color: #555555;
-  font-family: var(--font);
-  font-size: 0.95rem;
-  font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 40px 60px;
+    color: #555555;
+    font-family: var(--font);
+    font-size: 0.95rem;
+    font-weight: 500;
 }
 
-/* Spinner */
 .loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 4px solid #e0e0e0;
-  border-top-color: var(--red);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #e0e0e0;
+    border-top-color: var(--red);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-/* ── Baris tombol ─────────────────────────────────────── */
 .result-actions {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-/* Base button (reuse pola dari btn di style.css) */
 .result-actions .btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 14px 32px;
-  border-radius: 17px;
-  border: 3px solid var(--black);
-  box-shadow: 3px 4px 0 var(--black);
-  font-family: var(--font);
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
-  text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 32px;
+    border-radius: 17px;
+    border: 3px solid var(--black);
+    box-shadow: 3px 4px 0 var(--black);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition:
+        transform 0.1s ease,
+        box-shadow 0.1s ease;
+    text-decoration: none;
 }
 
 .result-actions .btn:active {
-  transform: translateY(2px);
-  box-shadow: 1px 2px 0 var(--black);
+    transform: translateY(2px);
+    box-shadow: 1px 2px 0 var(--black);
 }
 
-.btn:hover{
-  transform: translateY(2px);
-  box-shadow: 1px 2px 0 var(--black);
+.btn:hover {
+    transform: translateY(2px);
+    box-shadow: 1px 2px 0 var(--black);
 }
 
-/* Back — putih */
 .btn-back {
-  background: #ffffff;
-  color: var(--black);
-  min-width: 140px;
+    background: #ffffff;
+    color: var(--black);
+    min-width: 140px;
 }
 
-/* Download — merah */
 .btn-download {
-  background: var(--red);
-  color: #ffffff;
-  min-width: 180px;
+    background: var(--red);
+    color: #ffffff;
+    min-width: 180px;
 }
 
-/* Done — amber */
 .btn-done {
-  background: #D4901A;
-  color: #ffffff;
-  min-width: 140px;
+    background: #d4901a;
+    color: #ffffff;
+    min-width: 140px;
 }

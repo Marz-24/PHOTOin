@@ -1,26 +1,29 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --green: #345C66;
-    --green-dark: #245B68;
-    --red: #9E2A2B;
+    --green: #345c66;
+    --green-dark: #245b68;
+    --red: #9e2a2b;
     --black: #000000;
-    --bg-cream: #FEF4AF;
-    --bg-green: #2E484E;
+    --bg-cream: #fef4af;
+    --bg-green: #2e484e;
     --white: #ffffff;
     --nav-height: 90px;
     --nav-margin: 16px;
     --nav-radius: 18px;
-    --font: 'Poppins', sans-serif;
+    --font: "Poppins", sans-serif;
     --border: 3px solid var(--black);
     --shadow: 5px 5px 0 var(--black);
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -39,12 +42,16 @@ body {
     height: var(--nav-height);
     background-color: var(--green);
     background-image:
-        linear-gradient(45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-        linear-gradient(-45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-        linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.07) 75%),
-        linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.07) 75%);
+        linear-gradient(45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%);
     background-size: 44px 44px;
-    background-position: 0 0, 0 22px, 22px -22px, -22px 0px;
+    background-position:
+        0 0,
+        0 22px,
+        22px -22px,
+        -22px 0px;
     border-radius: var(--nav-radius);
     border: 3px solid var(--black);
     box-shadow: 4px 5px 0 var(--black);
@@ -123,7 +130,6 @@ main {
     padding: 40px 32px 48px;
 }
 
-/* Panduan page */
 .panduan-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -186,7 +192,6 @@ main {
     min-width: 1.25rem;
 }
 
-/* FAQ */
 .faq-container {
     display: flex;
     flex-direction: column;
@@ -255,12 +260,16 @@ footer {
     flex-shrink: 0;
     background-color: var(--green);
     background-image:
-        linear-gradient(45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-        linear-gradient(-45deg, rgba(0,0,0,0.07) 25%, transparent 25%),
-        linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.07) 75%),
-        linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.07) 75%);
+        linear-gradient(45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(0, 0, 0, 0.07) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.07) 75%);
     background-size: 44px 44px;
-    background-position: 0 0, 0 22px, 22px -22px, -22px 0px;
+    background-position:
+        0 0,
+        0 22px,
+        22px -22px,
+        -22px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
